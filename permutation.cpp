@@ -2,13 +2,13 @@
 using namespace std;
 int fact(int x){
 	int f =1;
-	for(int i=1;i<=x;i++){
+	for(int i=1;i<=x;i++){ // i is a local variable
 		f*=i;
 	}
 	return f;
 }
 int main(){
-	int n,r;
+	int n,r;//global variable
 	cout<<"Enter n : ";
 	cin>>n;
 	cout<<"Enter r : ";

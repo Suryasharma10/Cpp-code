@@ -91,7 +91,6 @@ int main(){
 //     //__________to int____________________
        string b = "1234";   
        int c = stoi(b); // string to int
-       c
        cout<<c<<endl;
 
 
